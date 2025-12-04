@@ -8,6 +8,11 @@
   "main": "lib/addon-image.js",
   "module": "lib/addon-image.mjs",
   "types": "typings/addon-image.d.ts",
+  "exports": {
+    "types": "./typings/addon-image.d.ts",
+    "import": "./lib/addon-image.mjs",
+    "require": "./lib/addon-image.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-image",
   "license": "MIT",
   "keywords": [

@@ -8,6 +8,11 @@
   "main": "lib/addon-fit.js",
   "module": "lib/addon-fit.mjs",
   "types": "typings/addon-fit.d.ts",
+  "exports": {
+    "types": "./typings/addon-fit.d.ts",
+    "import": "./lib/addon-fit.mjs",
+    "require": "./lib/addon-fit.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-fit",
   "license": "MIT",
   "keywords": [

@@ -8,6 +8,11 @@
   "main": "lib/addon-web-links.js",
   "module": "lib/addon-web-links.mjs",
   "types": "typings/addon-web-links.d.ts",
+  "exports": {
+    "types": "./typings/addon-web-links.d.ts",
+    "import": "./lib/addon-web-links.mjs",
+    "require": "./lib/addon-web-links.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-web-links",
   "license": "MIT",
   "keywords": [

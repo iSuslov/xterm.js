@@ -8,6 +8,11 @@
   "main": "lib/addon-webgl.js",
   "module": "lib/addon-webgl.mjs",
   "types": "typings/addon-webgl.d.ts",
+  "exports": {
+    "types": "./typings/addon-webgl.d.ts",
+    "import": "./lib/addon-webgl.mjs",
+    "require": "./lib/addon-webgl.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-webgl",
   "license": "MIT",
   "keywords": [

@@ -8,6 +8,11 @@
   "main": "lib/addon-serialize.js",
   "module": "lib/addon-serialize.mjs",
   "types": "typings/addon-serialize.d.ts",
+  "exports": {
+    "types": "./typings/addon-serialize.d.ts",
+    "import": "./lib/addon-serialize.mjs",
+    "require": "./lib/addon-serialize.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-serialize",
   "license": "MIT",
   "keywords": [

@@ -9,6 +9,11 @@
   "main": "lib/addon-ligatures.js",
   "module": "lib/addon-ligatures.mjs",
   "types": "typings/addon-ligatures.d.ts",
+  "exports": {
+    "types": "./typings/addon-ligatures.d.ts",
+    "import": "./lib/addon-ligatures.mjs",
+    "require": "./lib/addon-ligatures.js"
+  },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-ligatures",
   "engines": {
     "node": ">8.0.0"
