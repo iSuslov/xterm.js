@@ -6,11 +6,11 @@
     "url": "https://xtermjs.org/"
   },
   "main": "lib/addon-unicode-graphemes.js",
-  "module": "lib/.addon-unicode-graphemes.mjs",
+  "module": "lib/addon-unicode-graphemes.mjs",
   "types": "typings/addon-unicode-graphemes.d.ts",
   "exports": {
     "types": "./typings/addon-unicode-graphemes.d.ts",
-    "import": "./lib/.addon-unicode-graphemes.mjs",
+    "import": "./lib/addon-unicode-graphemes.mjs",
     "require": "./lib/addon-unicode-graphemes.js"
   },
   "repository": "https://github.com/xtermjs/xterm.js/tree/master/addons/addon-unicode-graphemes",
